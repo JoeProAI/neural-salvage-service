@@ -1,0 +1,29 @@
+{
+  "name": "neural-salvage-service",
+  "version": "0.1.0",
+  "description": "Permanent AI state preservation on Arweave. Agents and humans save souls, memories, and identity — forever.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node test/run.js"
+  },
+  "keywords": ["arweave", "ai-agents", "memory", "preservation", "blockchain", "neural-salvage"],
+  "author": "JoePro <joe@joepro.ai>",
+  "license": "MIT",
+  "dependencies": {
+    "arweave": "^1.15.5",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "helmet": "^8.0.0",
+    "stripe": "^17.5.0",
+    "@solana/web3.js": "^1.98.0",
+    "@solana/spl-token": "^0.4.9",
+    "ethers": "^6.13.0",
+    "uuid": "^11.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
